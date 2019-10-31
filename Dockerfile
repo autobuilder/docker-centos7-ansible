@@ -6,11 +6,11 @@ ENV pip_packages "ansible"
 
 # Install requirements.
 RUN yum -y update; yum clean all; \
-    && yum makecache fast \
-    && yum -y update \
-    && yum -y install deltarpm epel-release \
-    && yum -y install python-pip sudo which \
-    && yum clean all
+ && yum makecache fast \
+ && yum -y update \
+ && yum -y install deltarpm epel-release \
+ && yum -y install python-pip sudo which \
+ && yum clean all
 
 # Install Ansible via Pip.
 RUN pip install $pip_packages
