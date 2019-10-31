@@ -8,7 +8,7 @@ ENV pip_packages "ansible"
 RUN yum -y update; yum clean all; \
  && yum makecache fast \
  && yum -y update \
- && yum -y install deltarpm epel-release \
+ && yum -y install deltarpm epel-release initscripts \
  && yum -y install python-pip sudo which \
  && yum clean all
 
