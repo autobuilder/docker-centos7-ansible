@@ -7,7 +7,7 @@ ENV pip_packages "ansible"
 # Install requirements.
 RUN yum makecache fast \
  && yum -y update \
- && yum -y install epel-release \
+ && yum -y install deltarpm epel-release \
  && yum -y install python-pip \
  && yum clean all
 
