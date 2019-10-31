@@ -32,3 +32,5 @@ RUN pip install $pip_packages
 RUN mkdir -p /etc/ansible
 RUN echo -e '[local]\nlocalhost ansible_connection=local' > /etc/ansible/hosts
 RUN ansible --version
+
+CMD ["/usr/lib/systemd/systemd"]
