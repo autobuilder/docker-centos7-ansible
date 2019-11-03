@@ -12,7 +12,7 @@
 [![License](https://img.shields.io/github/license/autobuilder/docker-centos7-ansible)](https://opensource.org/licenses/MIT)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/autobuilder/docker-centos7-ansible/issues)
 
-CentOS7 Docker image fo Ansible test
+CentOS7 Docker image for Ansible test
 
 ---
 
